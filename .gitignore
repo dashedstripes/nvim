@@ -1,0 +1,30 @@
+# macOS system files
+.DS_Store
+
+# Neovim specific
+*.swp
+*.swo
+~/.local/share/nvim/
+~/.cache/nvim/
+
+# Plugin manager directories (adjust if you use a different plugin manager)
+/plugin/packer_compiled.lua
+/pack/
+
+# Logs
+*.log
+
+# Undo files
+*.un~
+
+# Compiled Lua sources
+luac.out
+
+# Temporary files
+*.tmp
+
+# Language server protocol
+.lsp/
+
+# Treesitter parser files
+parser/
