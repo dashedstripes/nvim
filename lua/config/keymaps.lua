@@ -10,6 +10,7 @@ vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 
 -- toggleterm
 vim.keymap.set('n', '<C-.>', ':ToggleTerm<CR>', { noremap = true, silent = true })
+vim.keymap.set('t', '<C-.>', [[<C-\><C-n>]], { noremap = true, silent = true })
 
 -- avante
 vim.keymap.set('n', '<C-l>', ':AvanteAsk<CR>', { noremap = true, silent = true })
