@@ -32,9 +32,6 @@ vim.opt.smartcase = true
 -- Enable clipboard integration
 vim.opt.clipboard = 'unnamedplus'
 
--- Set colorscheme (change to your preferred theme)
-vim.cmd.colorscheme('habamax')
-
 -- Enable syntax highlighting
 vim.cmd('syntax enable')
 
