@@ -1,5 +1,6 @@
 -- nvim-tree
 vim.keymap.set('n', '<C-n>', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>o', ':NvimTreeFindFile<CR>', { noremap = true, silent = true })
 
 -- telescope
 local builtin = require('telescope.builtin')
