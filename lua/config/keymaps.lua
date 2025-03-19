@@ -1,3 +1,6 @@
+-- nvim
+vim.keymap.set('n', '<leader>bn', ':bnext<CR>', { noremap = true, silent = true })
+
 -- nvim-tree
 vim.keymap.set('n', '<C-n>', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
 vim.keymap.set('n', '<leader>o', ':NvimTreeFindFile<CR>', { noremap = true, silent = true })
