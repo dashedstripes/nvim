@@ -1,3 +1,7 @@
+-- disable netrw as recommended by nvim-tree setup
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
 -- Set <space> as the leader key
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
