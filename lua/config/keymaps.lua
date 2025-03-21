@@ -6,7 +6,6 @@ vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, { desc = "Go to implementa
 
 -- nvim-tree
 vim.keymap.set('n', '<C-n>', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
-vim.keymap.set('n', '<leader>o', ':NvimTreeFindFile<CR>', { noremap = true, silent = true })
 
 -- telescope
 local builtin = require('telescope.builtin')
